@@ -1,7 +1,9 @@
-compile with: gcc -Wall -Werror -std=gnu11 -O2 -lm Auto3.c -o Auto3
+compile with:
+  gcc -Wall -Werror -std=gnu11 -O2 -lm Auto3.c -o Auto3
 
 
 **Prova finale di algoritmi e strutture dati 2022-2023**
+
 Si consideri un’autostrada descritta come una sequenza di stazioni di servizio. Ogni stazione di servizio si trova
 ad una distanza dall’inizio dell’autostrada espressa in chilometri da un numero intero positivo o nullo. Non esistono
 due stazioni di servizio aventi la stessa distanza: ogni stazione di servizio è quindi univocamente identificata dalla
@@ -27,6 +29,7 @@ quella a distanza 50 è 20 → 30 → 50 (e non 20 → 45 → 50). Si noti che, 
 corretto tra la stazione a distanza 50 e quella a distanza 20 (quindi in direzione da destra a sinistra).
 
 *Formato file in ingresso e stampe attese*
+
 Il file testuale in ingresso contiene una sequenza di comandi, uno per riga, con il seguente formato. Tutti i valori
 interi positivi o nulli sono codificabili in 32 bit.
 - aggiungi-stazione distanza numero-auto autonomia-auto-1 ... autonomia-auto-n
